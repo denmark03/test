@@ -1,0 +1,25 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+  body {
+  background-image: linear-gradient(to right, #F1DEC9, #C8B6A6, #A4907C, #8D7B68, #A4907C, #C8B6A6, #F1DEC9, #0000, red, blue, pink, green, blue, black, brown, cyan);
+    background-size: 1000%;
+    animation: animateBackground 30s linear infinite;
+  }
+  
+  @keyframes animateBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 1000% 0;
+    }
+  }
+  
