@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <button class="button-85" role="button">
 
-          <b> <RouterLink to="/">Home</RouterLink></b>
+          <b> <RouterLink to="/">Hhome</RouterLink></b>
       </button>
       <button class="button-85" role="button">
         <b> <RouterLink to="/main-container">Anime</RouterLink></b>
